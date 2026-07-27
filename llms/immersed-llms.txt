@@ -1,0 +1,23 @@
+# Immersed
+
+Immersed is a spatial computing platform providing AR/VR workspaces for productivity and collaboration.
+
+## Overview
+Empowers professionals with virtual multi-monitor setups, remote telepresence, and immersive environments. Free app with optional premium features; compatible with Meta Quest, Apple Vision Pro, GalaxyXR, Mac/Windows/Linux.
+
+## Key Products & Features
+- **Immersed App**: Free desktop agent; up to 5 virtual screens; solo focus mode; remote collaboration (4+ users, screen sharing, whiteboarding).
+- **Visor Headset**: Lightweight 4K per eye spatial computing device (see visor.com).
+- Portable, low-latency, multi-OS support.
+
+## Target Users
+Remote workers, coders, creators, teams needing focused or collaborative virtual spaces.
+
+## Important URLs
+- https://immersed.com/setup → Download desktop agent
+- https://www.visor.com/shop → Visor headset details & purchase
+- https://invest.immersed.com → Pre-IPO investment
+- https://immersed.com/privacy → Privacy Policy
+
+## Contact
+support@immersed.com

@@ -1,7 +1,27 @@
 aid: immersed
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/immersed.png
 name: Immersed
-description: Immersed is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Immersed is a spatial-computing company that turns AR/VR headsets into portable
+  multi-monitor workspaces for remote work, coding, and collaboration. Its free
+  desktop agent streams up to five virtual screens into headsets such as Meta Quest,
+  Apple Vision Pro, GalaxyXR, and Pico, adding solo focus environments plus multi-user
+  telepresence with screen sharing and whiteboarding. Immersed is also building Visor,
+  its own lightweight 4K-per-eye standalone headset. The company is Techstars-backed.
+  Immersed publishes no public developer API, SDK, or developer portal; this profile
+  captures its public web, product, security, and llms.txt surface for the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/immersed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Virtual Reality
+- Augmented Reality
+- Spatial Computing
+- Productivity
+- Remote Work
+- Collaboration
+- Headsets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://immersed.com/
+- type: GettingStarted
+  url: https://immersed.com/setup
+- type: Pricing
+  url: https://immersed.com/pricing
+- type: Support
+  url: https://immersed.helpscoutdocs.com/
+- type: Blog
+  url: https://medium.com/immersedteam/
+- type: TermsOfService
+  url: https://immersed.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://immersed.com/privacy
+- type: LLMsTxt
+  url: llms/immersed-llms.txt
+- type: DomainSecurity
+  url: security/immersed-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
